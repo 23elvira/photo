@@ -1,0 +1,79 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;}
+
+#kgz_header{font-size: 1.1rem;
+        font-weight: bold;
+        background-image: linear-gradient(50deg, rgb(167, 160, 160),rgb(10, 10, 111),rgb(167, 160, 160)) ;
+        text-align: center;
+        padding: 10px 0;
+        color: whitesmoke;}
+
+#kgz_main{background-image: url(./hgh.jpg);
+     background-size: cover;
+     background-position: center;
+     margin: 0px;
+     overflow: hidden;
+     color:rgb(207, 198, 198);
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     padding:10px 15px 0px 96px;}
+
+.photos{float:left;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+        transition: transform 0.3s ease;
+        width: 30%;
+        margin: 12.5px;}
+
+.photos:hover {transform: scale(1.10);}
+ 
+.images{
+    height: 270px;
+    overflow: hidden;}
+
+img{
+    border-radius: 6px 6px 0 0 ;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;}
+
+.clear{clear:both;}
+
+h4{ text-align: center;
+    background-image: linear-gradient(45deg,rgba(167, 160, 160, 0.526),rgba(10, 10, 111, 0.535),rgba(167, 160, 160, 0.623));
+    font-family: "Chakra Petch", sans-serif;
+    font-style: normal;
+    color: rgb(230, 230, 238);
+    padding: 3px 0;
+    font-weight: bold;
+    font-size: 1.1rem;}
+
+#kgz_nav{text-align: center;
+         margin-bottom: 15px;}
+
+.buttonto{text-decoration: none;
+          text-align: center;
+          cursor: pointer;
+          color:rgb(156, 149, 149);
+          background-image: linear-gradient(to right, rgb(167, 160, 160),rgb(25, 25, 187)) ;
+          padding:9px 30px;
+          margin: 0px 20px 20px 0;
+          border-radius: 5px;
+          font-size: 1rem;
+          transition: background-color 0.3s;}
+
+.buttonto:hover{background-image: linear-gradient(to right,rgb(25, 25, 187) rgb(167, 160, 160)) ;
+                color: white;}
+
+
+footer p{background-image: linear-gradient(50deg, rgb(167, 160, 160),rgb(10, 10, 111),rgb(167, 160, 160)) ;
+      color: #fff;
+      text-align: center;;
+      padding: 10px 0;
+    font-size: smaller;}
+
+      footer{margin-bottom:-100px;}
